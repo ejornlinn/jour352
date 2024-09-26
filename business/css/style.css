@@ -22,14 +22,12 @@ footer {
 
 header img {
     margin: 0 auto;
-    /*force aligns img at center*/
-    display: block;
-    /*force aligns img at center*/
+    display: block
     width: 25%;
 }
 
 .nav-link {
-    /*overwrites bootstrap styling*/
+
     color: #FBFFFF;
     text-decoration: none;
     letter-spacing: 1.2px;
@@ -39,7 +37,6 @@ header img {
 }
 
 .nav-link:hover {
-    /*sets styling when 'hovering' aka state*/
     color: antiquewhite;
 }
 
@@ -49,7 +46,6 @@ h2 {
 }
 
 b {
-    /*using b for overline text*/
     text-transform: uppercase;
     font-weight: 300;
     font-size: .8em;
