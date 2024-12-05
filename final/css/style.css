@@ -1,114 +1,105 @@
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif; /* Fixed missing semicolon */
+    font-family: Georgia, 'Times New Roman', Times, serif; 
     line-height: 1.4;
     color: #333;
     display: flex;
     justify-content: center; 
     align-items: flex-start;
-    flex-direction: column; /* Stack content vertically */
-    min-height: 100vh; /* Full height of the viewport */
+    flex-direction: column; 
+    min-height: 100vh; 
     margin: 0;               
     padding: 0;             
-    background-color: thistle; /* Set background color to purple */
-    text-align: center; /* Centers overall layout */
+    background-color: thistle; 
+    text-align: center;
+    font-size: 0.9rem;
 }
 
-/* Title Container (Big title at the top) */
 .title-container {
     text-align: center;
-    width: 100%; /* Ensure it takes up full width */
-    margin-top: 2rem; /* Space above the title */
+    width: 100%; 
+    margin-top: 2rem; 
 }
 
 .title-container h1 {
-    font-size: 3rem; /* Really big font size */
-    font-weight: bold; /* Make the title bold */
+    font-size: 3rem; 
+    font-weight: bold; 
     margin: 0;
 }
 
-/* Main Content */
+.title-container .author {
+    font-size: 0.9rem; 
+    color: #444; 
+    margin-top: 0.5rem; 
+    text-align: center;
+}
+
 main {
     padding: 1rem;
-    max-width: 450px; /* Slightly wider content area */
-    margin: 0 auto;  /* Centered horizontally */
+    max-width: 450px; 
+    margin: 0 auto;  
     background: #fff;
     border-radius: 4px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-    text-align: left; /* Align all content inside to the left */
+    text-align: left; 
 }
 
-/* Section Titles */
 h2, h3 {
     color: hotpink;
-    margin-bottom: 0.5rem; /* Smaller margin */
-    text-align: center; /* Keep section titles centered */
+    margin-bottom: 0.5rem; 
+    text-align: center; 
     font-size: 1.7rem; 
 }
 
-/* Paragraphs (Left-Aligned) */
 p {
-    max-width: 400px; /* Slightly wider paragraph width */
-    margin: 0 auto 1rem auto; /* Center container, left-align text */
-    text-align: left; /* Left-align paragraph text */
+    max-width: 400px; 
+    margin: 0 auto 1rem auto; 
+    text-align: left; 
     color: #444;
-    font-size: 0.9rem; /* Smaller font size */
-    line-height: 1.4; /* Compact line spacing */
+    font-size: 0.9rem; 
+    line-height: 1.4; 
 }
 
-/* Lists (Left-Aligned) */
 ul {
-    max-width: 400px; /* Slightly wider list width */
-    margin: 0 auto 1rem auto; /* Center container, left-align text */
+    max-width: 400px; 
+    margin: 0 auto 1rem auto; 
     list-style-type: disc;
-    text-align: left; /* Left-align list text */
-    padding-left: 1rem; /* Add indentation for list items */
+    text-align: left; 
+    padding-left: 1rem; 
 }
 
 ul ul {
     list-style-type: circle;
-    margin-left: 1rem; /* Nested indentation for clarity */
+    margin-left: 1rem; 
 }
 
-/* Interactive Chart */
-#abortionChart {
-    display: block;
-    max-width: 400px; /* Align chart width with text and images */
-    height: auto;
-    margin: 1rem auto; /* Center the chart */
-}
-
-/* Section Spacing */
 section {
-    margin-bottom: 1rem; /* Smaller spacing between sections */
-    text-align: left; /* Left-align content inside sections */
+    margin-bottom: 1rem; 
+    text-align: left; 
 }
 
-/* Images */
 img {
     width: 100%;
-    max-width: 400px; /* Slightly wider images */
+    max-width: 400px; 
     height: auto;
     margin: 0 auto;
-    display: block; /* Ensure images are block elements to allow centering */
+    display: block; 
 }
 
-/* Add space between the two images */
 img + img {
-    margin-top: 50px; /* Adjust the value to control the space between the two images */
+    margin-top: 50px; 
 }
 
 
-/* Enhanced Readability for Nested Lists */
+
 ul li {
-    margin-bottom: 0.4rem; /* Compact list items */
+    margin-bottom: 0.4rem; 
 }
 
-/* Buttons (Optional for Adding Interactivity) */
 button {
     background-color: #ffa500;
     color: #fff;
     border: none;
-    padding: 0.5rem 1rem; /* Compact button size */
+    padding: 0.5rem 1rem; 
     border-radius: 3px;
     font-size: 0.9rem;
     cursor: pointer;
@@ -119,29 +110,29 @@ button:hover {
     background-color: #e69500;
 }
 
-/* Media Queries */
+
 @media (max-width: 768px) {
     body {
-        font-size: 0.8rem; /* Smaller font size */
+        font-size: 0.8rem; 
     }
 
     h1, h2, h3 {
-        font-size: 1rem; /* Smaller headers */
+        font-size: 1rem; 
     }
 
     ul {
-        margin-left: 0; /* Fully centered on smaller devices */
+        margin-left: 0; /
     }
 }
 
-/* Infographic-Specific Styles */
+
 main {
-    max-width: 450px; /* Slightly wider layout for infographic look */
+    max-width: 450px; 
 }
 
-/* Styling for Bolded Elements Inside Paragraphs */
+
 strong, b {
-    color: darkmagenta; /* Set bolded text color to thistle */
-    font-weight: bold; /* Ensure the text is bold */
+    color: darkmagenta;
+    font-weight: bold; 
 }
 
