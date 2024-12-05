@@ -89,42 +89,9 @@ img + img {
     margin-top: 50px; 
 }
 
-
-
 ul li {
     margin-bottom: 0.4rem; 
 }
-
-button {
-    background-color: #ffa500;
-    color: #fff;
-    border: none;
-    padding: 0.5rem 1rem; 
-    border-radius: 3px;
-    font-size: 0.9rem;
-    cursor: pointer;
-    transition: background 0.3s ease;
-}
-
-button:hover {
-    background-color: #e69500;
-}
-
-
-@media (max-width: 768px) {
-    body {
-        font-size: 0.8rem; 
-    }
-
-    h1, h2, h3 {
-        font-size: 1rem; 
-    }
-
-    ul {
-        margin-left: 0; /
-    }
-}
-
 
 main {
     max-width: 450px; 
