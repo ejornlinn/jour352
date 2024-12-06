@@ -1,176 +1,221 @@
-/* 
 
-Styles:
-Body font: Figtree, 14px
-H1, H3: Prompt
-
-White color: #FEFEFE
-Black color: #11151C
-Red link color: #B82B26
-
-Charts (black background): Font is .8em
- */
-
-
-/* new code you will use */
 .container {
-    width: 45%
+  width: 45%
 }
 
 header img,
 .chart img {
-    display: block;
-    margin: 0 auto;
-    width: 100%;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
 }
 
 .gif-container img {
-    display: block;
-    margin: 0 auto;
-    width: 100%;
+  display: block;
+  margin: 0 auto;
+  width: 85%;
+  transform: translateX(5.5px);
 }
 
 .banner {
-    background-color: #333; /* Dark background color */
-    color: #fff; /* White text color */
-    text-align: center;
-    padding: 20px;
-    font-family: Arial, sans-serif;
-  }
-  
-  .banner h1 {
-    font-size: 2.5em;
-    margin: 0;
-  }
-  
-  .banner p {
-    font-size: 1.2em;
-    margin: 5px 0;
-  }
-  
-
-.text-container {
-    text-align: center;
+  background-color: #090922 !important;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  width: 85%;
+  max-height: 600px;
+  transform: translateX(113.5px) translateY(-10px);
 }
 
-.text-container h3,
-.text-container p {
-    font-size: 14px;
-    margin: 0;
-    display: inline-block;
-    text-align: left;
+.banner h1 {
+  font-weight: bold;
+  font-size: 3em;
+  margin: 0;
+  letter-spacing: 1.25px;
 }
 
-.slang-secton {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 800px;
-    margin: 0 auto;
+.banner h2 {
+  font-weight: 10;
+  font-size: 2em;
+  margin: 0;
+  letter-spacing: 1px;
 }
 
-/* Base banner styling */
-.banner {
-    background-color: #333; /* Dark background color */
-    color: #fff; /* White text color */
-    padding: 20px;
-    font-family: Arial, sans-serif;
-    margin: 10px 0; /* Smaller top and bottom margins */
-  }
-  
-  /* Styling for the main title banner */
-  .banner h1 {
-    font-size: 2.5em;
-    margin: 0;
-    text-align: center;
-  }
-  
-  .banner p {
-    font-size: 1.2em;
-    margin: 5px 0;
-    text-align: center;
-  }
-  
-  .content-banner {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-    text-align: left; 
-  }
-  
-  .text-section {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center; 
-    font-size: 1.1em;
-    color: #fff; 
-    padding-right: 10px; 
-  }
-  
-  .image-section {
-    flex: 1;
-    text-align: right;
-  }
-  
-  .image-section img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px; 
-  }
-   
-.banner {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    font-family: Arial, sans-serif;
-    text-align: center;
-    margin: 10px 0;
-  }
-  
-  .timeline-banner {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .years {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    font-size: 1.8em;
-    letter-spacing: 0.5em;
-    margin-bottom: 15px;
-  }
-  
-  .images {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    gap: 10px;
-  }
-  
-  .image-section {
-    text-align: center;
-    width: 20%; 
-  }
-  
-  .image-section img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-    margin-bottom: 10px;
-  }
-  
-  .events {
-    font-size: 0.9em;
-    text-align: left;
-    color: #ccc; 
-  }
-  
-  .events p {
-    margin: 5px 0;
-  }
-  
+.banner p {
+  font-size: .75em !important;
+  margin: 5px 0;
+}
+
+.slang-section {
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+  max-width: 650px;
+  margin: 0 auto;
+  display: block;
+  line-height: 1.8;
+}
+
+.birthtitle {
+  margin: 0 auto;
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 1.2em !important;
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+  max-width: 650px;
+  margin: 0 auto;
+  display: block;
+  line-height: 1.8;
+}
+
+.southertitle {
+  margin: 0 auto;
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 1.2em !important;
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+  max-width: 650px;
+  margin: 0 auto;
+  display: block;
+  line-height: 1.8;
+}
+
+.evolutiontitle {
+  margin: 0 auto;
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 1.2em !important;
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+  max-width: 650px;
+  margin: 0 auto;
+  display: block;
+  line-height: 1.8;
+}
+
+.southernsound {
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+  max-width: 650px;
+  margin: 0 auto;
+  display: block;
+  line-height: 1.8;
+}
+
+.bannerTwo {
+  display: flex;
+  background-color: #090922;
+  color: white;
+  padding: 40px;
+  gap: 20px;
+  align-items: center;
+  width: 85%;
+  transform: translateX(113.5px) translateY(-10px);
+
+}
+
+.maptext {
+  font-size: .75em !important;
+  transform: translateX(200px);
+  max-width: 230px;
+}
+
+.img-fluid {
+  transform: translateX(285px);
+  height: 300px;
+  max-width: 600px
+}
+
+.evolutionSection {
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+  max-width: 650px;
+  margin: 0 auto;
+  display: block;
+  line-height: 1.8;
+}
+
+.timeline-banner {
+  background-color: #090922 !important;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  width: 85%;
+  max-height: 500px;
+  transform: translateX(113.5px) translateY(10px);
+}
+
+.lifeEvent {
+  margin: 0 auto;
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 1.2em !important;
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+  max-width: 650px;
+  margin: 0 auto;
+  display: block;
+  line-height: 1.8;
+}
+
+.lifeEventSection {
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+  max-width: 650px;
+  margin: 0 auto;
+  display: block;
+  line-height: 1.8;
+}
+
+.andre-title {
+  margin: 0 auto;
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 1.2em !important;
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+  max-width: 650px;
+  margin: 0 auto;
+  display: block;
+  line-height: 1.8;
+}
+
+.andre-part {
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+  max-width: 650px;
+  margin: 0 auto;
+  display: block;
+  line-height: 1.8;
+}
+
+.effect-title {
+  margin: 0 auto;
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 1.2em !important;
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+  max-width: 650px;
+  margin: 0 auto;
+  display: block;
+  line-height: 1.8;
+}
+
+.effect-part {
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+  max-width: 650px;
+  margin: 0 auto;
+  display: block;
+  line-height: 1.8;
+}
